@@ -60,7 +60,7 @@ def print_report(char_count):
   # Prints only the letters of the alphabet and its occurance in the report
   for each in list_of_dicts:
      if char_map[each].isalpha():
-        print(f"The '{char_map[each]}' character was found {each} times")
+        print(f"The '{char_map[each]}' character was found {each} time")
 
 main()
 
